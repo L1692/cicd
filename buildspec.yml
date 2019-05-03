@@ -20,6 +20,7 @@ phases:
   post_build:
     commands:
     - echo Pushing the Docker image...
+    - docker push cicd:latest
 artifacts:
   files:
   - target/cicd-0.1.jar
