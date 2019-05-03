@@ -4,4 +4,5 @@ RUN mkdir -p /tmp/cicd
 ADD target/cicd-0.1.jar /tmp/cicd
 ADD run.sh run.sh
 RUN chmod +x run.sh
-CMD ./run.sh
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/tmp/cicd/cicd-0.1.jar"]
+
