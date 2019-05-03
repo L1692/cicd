@@ -1,14 +1,17 @@
 version: 0.2
 
 phases:
+  pre_build:
+    commands:
+    - echo Logging in to Amazon ECR...
+    - $(aws ecr get-login --region $AWS_DEFAULT_REGION)
   build:
     commands:
     - echo Build started on `date`
-    - mvn test
+    - mvn clean test package docker:build
   post_build:
     commands:
-    - echo Build completed on `date`
-    - mvn package
+    - echo Pushing the Docker image...
 artifacts:
   files:
   - target/cicd-0.1.jar
