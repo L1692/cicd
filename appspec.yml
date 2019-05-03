@@ -33,6 +33,8 @@ files:
   destination: c:\temp\cicd
 - source: \pom.xml
   destination: c:\temp\cicd
+- source: target\cicd-0.1.jar
+  destination: c:\temp\cicd
 hooks:
   AfterInstall:
   - location: \after-install.bat

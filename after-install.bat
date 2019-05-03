@@ -8,4 +8,4 @@ IF NOT EXIST c:\inetpub\wwwroot\cicd\bin mkdir c:\inetpub\wwwroot\cicd\bin
 
 cd c:\temp\cicd
 
-powershell.exe -command "mvn clean package docker:build"
+powershell.exe -command "docker images"

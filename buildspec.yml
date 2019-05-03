@@ -12,6 +12,8 @@ phases:
   post_build:
     commands:
     - echo Pushing the Docker image...
+    - docker images
+    - docker push spotify/foobar:0.1
 artifacts:
   files:
   - target/cicd-0.1.jar
