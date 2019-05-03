@@ -14,7 +14,7 @@ phases:
   build:
     commands:
     - echo Build started on `date`
-    - mvn clean compile assembly:single
+    - mvn clean package
     - docker images
     - docker build -t cicdapp .
   post_build:
