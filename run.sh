@@ -1,3 +1,3 @@
 #!/bin/sh
 
-java -jar cicd-0.1.jar
+java -jar /tmp/cicd/cicd-0.1.jar
