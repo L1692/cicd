@@ -15,6 +15,7 @@ phases:
   post_build:
     commands:
     - echo Pushing the Docker image...
+artifacts:
   files:
   - target/cicd-0.1.jar
   - appspec.yml
