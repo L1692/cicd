@@ -14,9 +14,6 @@ version: 0.0
 os: linux
 
 hooks:
-  BeforeInstall:
-  - location: codedeploy/BeforeInstall.sh
-    timeout: 30
   ApplicationStop:
   - location: codedeploy/ApplicationStop.sh
     timeout: 30
