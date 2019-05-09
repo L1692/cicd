@@ -14,9 +14,6 @@ version: 0.0
 os: linux
 
 hooks:
-  ApplicationStop:
-  - location: codedeploy/ApplicationStop.sh
-    timeout: 30
   ApplicationStart:
   - location: codedeploy/ApplicationStart.sh
     timeout: 30
