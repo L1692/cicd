@@ -15,12 +15,12 @@ import static org.junit.Assert.assertEquals;
 public class CicdApplicationTests {
 
     @Test
-    public void testMain() {
-        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outContent));
-        CicdApplication.helloworld();
-        assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
-        System.setOut(null);
+    public void testConcatenate() {
+        MyUnit myUnit = new MyUnit();
+
+        String result = myUnit.concatenate("one", "two");
+
+        assertEquals("onetwo", result);
     }
 
 }
