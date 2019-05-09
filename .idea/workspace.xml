@@ -56,7 +56,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="50" />
+          <entry key="Bash" value="61" />
           <entry key="Bat" value="162" />
           <entry key="CLASS" value="2" />
           <entry key="Dockerfile" value="69" />
@@ -141,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStop.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="51">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -186,6 +186,7 @@
       <find>jar</find>
       <find>port</find>
       <find>proxy</find>
+      <find>docker</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\lfranchi\IdeaProjects\cicd</dir>
@@ -317,7 +318,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557413648869" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557415260579" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -379,14 +380,7 @@
       <workItem from="1557153543330" duration="1674000" />
       <workItem from="1557215587048" duration="5231000" />
       <workItem from="1557300567844" duration="3782000" />
-      <workItem from="1557391015465" duration="19768000" />
-    </task>
-    <task id="LOCAL-00020" summary="Upgrading to Docker">
-      <created>1556889376609</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1556889376609</updated>
+      <workItem from="1557391015465" duration="21100000" />
     </task>
     <task id="LOCAL-00021" summary="Upgrading to Docker">
       <created>1556890026552</created>
@@ -724,11 +718,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557412458475</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Added CodeDeploy">
+      <created>1557413710923</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1557413710923</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84720000" />
+    <option name="totallyTimeSpent" value="86052000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1044,8 +1045,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStop.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>

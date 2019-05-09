@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-sudo docker ps
+sudo docker ps -a
+sudo docker rmi $(docker images -q)
