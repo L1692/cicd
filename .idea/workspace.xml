@@ -61,7 +61,7 @@
           <entry key="Bat" value="162" />
           <entry key="CLASS" value="2" />
           <entry key="Dockerfile" value="69" />
-          <entry key="JAVA" value="131" />
+          <entry key="JAVA" value="208" />
           <entry key="PLAIN_TEXT" value="223" />
           <entry key="Properties" value="62" />
           <entry key="Scala" value="8" />
@@ -86,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -94,8 +94,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="39" selection-start-line="9" selection-end-line="10" />
+            <state relative-caret-position="204">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -359,7 +363,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557401238371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557402021919" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -421,14 +425,7 @@
       <workItem from="1557153543330" duration="1674000" />
       <workItem from="1557215587048" duration="5231000" />
       <workItem from="1557300567844" duration="3782000" />
-      <workItem from="1557391015465" duration="8627000" />
-    </task>
-    <task id="LOCAL-00008" summary="Upgrading to Docker">
-      <created>1556877091598</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1556877091598</updated>
+      <workItem from="1557391015465" duration="9407000" />
     </task>
     <task id="LOCAL-00009" summary="Upgrading to Docker">
       <created>1556880766361</created>
@@ -766,11 +763,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557401008328</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Added CodeDeploy">
+      <created>1557401242814</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1557401242814</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73579000" />
+    <option name="totallyTimeSpent" value="74359000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1062,15 +1066,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="39" selection-start-line="9" selection-end-line="10" />
+        <state relative-caret-position="204">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>

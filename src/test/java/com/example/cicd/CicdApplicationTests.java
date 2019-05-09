@@ -18,7 +18,7 @@ public class CicdApplicationTests {
     public void testMain() {
         final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
-        CicdApplication.main(new String[]{});
+        CicdApplication.helloworld();
         assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
         System.setOut(null);
     }
