@@ -15,10 +15,10 @@ import static org.junit.Assert.assertEquals;
 public class CicdApplicationTests {
 
     @Test
-    public void testMain() {
+    public void testMain(String args[]) {
         final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
-        CicdApplication.main();
+        CicdApplication.main(args);
         assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
         System.setOut(null);
     }
