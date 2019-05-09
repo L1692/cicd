@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e126c77c-0335-4432-af32-ab06055fa5a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cicd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cicd.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codedeploy/ApplicationStop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/codedeploy/ApplicationStop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,7 +45,7 @@
           <entry key="Cmd" value="2" />
           <entry key="Dockerfile" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Properties" value="2" />
@@ -62,7 +61,7 @@
           <entry key="Bat" value="162" />
           <entry key="CLASS" value="2" />
           <entry key="Dockerfile" value="69" />
-          <entry key="JAVA" value="85" />
+          <entry key="JAVA" value="92" />
           <entry key="PLAIN_TEXT" value="223" />
           <entry key="Properties" value="62" />
           <entry key="Scala" value="8" />
@@ -83,11 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="204">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -101,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStop.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -144,11 +152,6 @@
               <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -202,7 +205,6 @@
         <option value="$PROJECT_DIR$/after-install.bat" />
         <option value="$PROJECT_DIR$/run.bat" />
         <option value="$PROJECT_DIR$/run.sh" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/sonar-project.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -218,8 +220,9 @@
         <option value="$PROJECT_DIR$/codedeploy/BeforeInstall.sh" />
         <option value="$PROJECT_DIR$/codedeploy/ApplicationStart.sh" />
         <option value="$PROJECT_DIR$/appspec.yml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java" />
         <option value="$PROJECT_DIR$/codedeploy/ApplicationStop.sh" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java" />
       </list>
     </option>
   </component>
@@ -366,7 +369,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557399867868" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557400085862" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -428,14 +431,7 @@
       <workItem from="1557153543330" duration="1674000" />
       <workItem from="1557215587048" duration="5231000" />
       <workItem from="1557300567844" duration="3782000" />
-      <workItem from="1557391015465" duration="7258000" />
-    </task>
-    <task id="LOCAL-00004" summary="Upgrading to Docker">
-      <created>1556868315395</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1556868315395</updated>
+      <workItem from="1557391015465" duration="7476000" />
     </task>
     <task id="LOCAL-00005" summary="Upgrading to Docker">
       <created>1556869590297</created>
@@ -773,11 +769,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557399005420</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Added CodeDeploy">
+      <created>1557399873421</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1557399873421</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72210000" />
+    <option name="totallyTimeSpent" value="72428000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -920,13 +923,6 @@
     <entry file="file://$PROJECT_DIR$/run.sh" />
     <entry file="file://$PROJECT_DIR$/run.bat" />
     <entry file="file://$PROJECT_DIR$/after-install.bat" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/gatling.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1053,13 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStart.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1078,6 +1067,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
