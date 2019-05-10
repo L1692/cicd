@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e126c77c-0335-4432-af32-ab06055fa5a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codedeploy/ApplicationStart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/codedeploy/ApplicationStart.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codedeploy/ApplicationStop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/codedeploy/ApplicationStop.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,7 +56,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Bash" value="64" />
+          <entry key="Bash" value="81" />
           <entry key="Bat" value="162" />
           <entry key="CLASS" value="2" />
           <entry key="Dockerfile" value="69" />
@@ -94,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStart.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -136,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStop.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="68">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -227,8 +226,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java" />
         <option value="$PROJECT_DIR$/appspec.yml" />
-        <option value="$PROJECT_DIR$/codedeploy/ApplicationStop.sh" />
         <option value="$PROJECT_DIR$/codedeploy/ApplicationStart.sh" />
+        <option value="$PROJECT_DIR$/codedeploy/ApplicationStop.sh" />
       </list>
     </option>
   </component>
@@ -316,7 +315,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557418065378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557473375486" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -378,14 +377,7 @@
       <workItem from="1557153543330" duration="1674000" />
       <workItem from="1557215587048" duration="5231000" />
       <workItem from="1557300567844" duration="3782000" />
-      <workItem from="1557391015465" duration="23866000" />
-    </task>
-    <task id="LOCAL-00024" summary="Upgrading to Docker">
-      <created>1556891424164</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1556891424164</updated>
+      <workItem from="1557391015465" duration="23949000" />
     </task>
     <task id="LOCAL-00025" summary="Upgrading to Docker">
       <created>1556892215120</created>
@@ -723,11 +715,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557417244199</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Added CodeDeploy">
+      <created>1557418075604</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1557418075604</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88818000" />
+    <option name="totallyTimeSpent" value="88901000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -739,7 +738,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.23624161" />
@@ -1034,17 +1033,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStop.sh">
+    <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStart.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStart.sh">
+    <entry file="file://$PROJECT_DIR$/codedeploy/ApplicationStop.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        <state relative-caret-position="68">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
