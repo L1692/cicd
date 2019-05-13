@@ -20,5 +20,12 @@ Una volta completata la build e il testing, è possibile osservare i risultati r
 
 Per l'ultima fase del ciclo, CodeDeploy si occupa di immettere l'immagine Docker dal registro su una istanza EC2 attraverso un file di orchestrazione (appspec.yml) presente nella root della repository Git. E'possibile monitorare il processo di deploy su https://eu-west-1.console.aws.amazon.com/codesuite/codedeploy/deployments?region=eu-west-1 (da notare che CodeDeploy impiega un tempo fisso di 5 minuti per chiudere e riaprire il traffico dell'istanza EC2 durante l'installazione ed esecuzione del container Docker e dunque questa ultima fase può durare intorno ai 15 minuti).
 
-Il monitoraggio dei container Docker è effettuabile tramite Kubernetes. La dashboard è presente sull'url: https://api-cicd-k8s-local-gtgus3-1144388551.eu-west-1.elb.amazonaws.com/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy. In caso di sessione scaduta sulla dashboard, inserire le seguenti credenziali: admin OLhwZn303nuVNJv4yY4S0DzGNVEc32TI e il seguente token se richiesto: NyUwrzOKK2spRzVy6WaCmTWCvJlKuinq
+Il monitoraggio dei container Docker è effettuabile tramite Kubernetes. La dashboard è presente sull'url: https://api-cicd-k8s-local-gtgus3-1144388551.eu-west-1.elb.amazonaws.com/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy. In caso di sessione scaduta sulla dashboard, inserire le seguenti credenziali: 
+
+* admin 
+* OLhwZn303nuVNJv4yY4S0DzGNVEc32TI 
+
+e il seguente token se richiesto: 
+
+* NyUwrzOKK2spRzVy6WaCmTWCvJlKuinq
 
