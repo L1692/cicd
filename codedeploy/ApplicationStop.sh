@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "$USER"
-kubectl delete services cicdapp
-kubectl delete deployment cicdapp
+/usr/local/bin/kubectl delete services cicdapp
+/usr/local/bin/kubectl delete deployment cicdapp
+sudo docker rmi $(sudo docker images -f dangling=true -q)
