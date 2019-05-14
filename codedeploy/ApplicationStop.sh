@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo su ec2-user
+whoami
 kubectl delete services cicdapp
 kubectl delete deployment cicdapp
