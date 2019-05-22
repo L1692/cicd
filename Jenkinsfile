@@ -34,6 +34,7 @@ pipeline {
         stage('Test: Load & Security') {
             steps {
                 sh "mvn gatling:test"
+                gatlingArchive()
             }
         }
         stage('Approval') {
