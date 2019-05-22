@@ -1,6 +1,9 @@
 pipeline {
 
     agent any
+    tools {
+        jdk 'jdk8'
+    }
 
     stages {
         stage('Build') {
@@ -35,7 +38,7 @@ pipeline {
         }
         stage('Approval') {
             steps {
-                echo 'Insert something here.'
+                echo 'Insert something here'
             }
         }
         stage('Deploy: Prod') {
