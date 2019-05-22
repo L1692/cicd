@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Approval') {
             steps {
-                echo 'Insert something here'
+                echo 'Insert something here.'
             }
         }
         stage('Deploy: Prod') {
