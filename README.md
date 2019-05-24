@@ -9,18 +9,3 @@ Questa pipeline effettua un ciclo completo di build, test e deploy di una reposi
 
 Attualmente la pipeline è funzionante per progetti Maven e Gradle, con immagini Docker basate su Linux. AWS al momento non supporta la virtualizzazione di container Windows.
 
-### Accessso alla pipeline
-
-L'artefatto costruito in fase di build viene immesso in una immagine Docker inviata a una repository di AWS Elastic Container Registry (https://eu-west-1.console.aws.amazon.com/ecr/repositories/cicdapp/?region=eu-west-1). 
-
-Una volta completata la build e il testing, è possibile osservare i risultati relativi a SonarQube e Gatling rispettivamente su: http://99.80.28.74:9000 e http://99.80.28.74:8080/job/cicdapp-test/gatling/ (i singoli report sono visualizzabili in basso come file HTML).
-
-Il monitoraggio dei container Docker è effettuabile tramite Kubernetes. La dashboard è presente sull'url: https://api-cicd-k8s-local-gtgus3-1195838833.eu-west-1.elb.amazonaws.com/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy. In caso di sessione scaduta sulla dashboard, inserire le seguenti credenziali: 
-
-* admin 
-* Z1dTDoK8h9w2hoFMa1kvw2pnV96mxD4Q 
-
-e il seguente token se richiesto: 
-
-* dEJxcimayWDvpErduecFaaZ2I7lUVU9W
-

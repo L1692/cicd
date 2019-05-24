@@ -65,6 +65,7 @@
           <entry key="Dockerfile" value="70" />
           <entry key="Enforced Plain Text" value="73" />
           <entry key="JAVA" value="428" />
+          <entry key="Markdown" value="23" />
           <entry key="PLAIN_TEXT" value="271" />
           <entry key="Properties" value="77" />
           <entry key="Scala" value="14" />
@@ -94,8 +95,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="374">
-                <caret line="22" column="106" selection-start-line="22" selection-start-column="106" selection-end-line="22" selection-end-column="251" />
+              <first_editor relative-caret-position="221">
+                <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -475,21 +476,7 @@
       <workItem from="1558084523351" duration="5440000" />
       <workItem from="1558095349566" duration="27000" />
       <workItem from="1558451203582" duration="11490000" />
-      <workItem from="1558682922732" duration="239000" />
-    </task>
-    <task id="LOCAL-00055" summary="Added CodeDeploy">
-      <created>1557400232134</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1557400232134</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Added CodeDeploy">
-      <created>1557401008328</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1557401008328</updated>
+      <workItem from="1558682922732" duration="963000" />
     </task>
     <task id="LOCAL-00057" summary="Added CodeDeploy">
       <created>1557401242814</created>
@@ -820,11 +807,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558627843098</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Added Jenkinsfile">
+      <created>1558683233979</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1558683233980</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Added Jenkinsfile">
+      <created>1558683246644</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1558683246644</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143059000" />
+    <option name="totallyTimeSpent" value="143727000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1132,8 +1133,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="374">
-            <caret line="22" column="106" selection-start-line="22" selection-start-column="106" selection-end-line="22" selection-end-column="251" />
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           </first_editor>
           <second_editor />
         </state>
