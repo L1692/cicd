@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e126c77c-0335-4432-af32-ab06055fa5a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -412,7 +410,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558970703323" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558972962145" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cicd-archetype" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -486,14 +484,7 @@
       <workItem from="1558095349566" duration="27000" />
       <workItem from="1558451203582" duration="11490000" />
       <workItem from="1558682922732" duration="4518000" />
-      <workItem from="1558963594898" duration="3516000" />
-    </task>
-    <task id="LOCAL-00060" summary="Added CodeDeploy">
-      <created>1557404321965</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1557404321965</updated>
+      <workItem from="1558963594898" duration="4121000" />
     </task>
     <task id="LOCAL-00061" summary="Added CodeDeploy">
       <created>1557405048128</created>
@@ -831,11 +822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558969808076</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Parametrizing pom.xml">
+      <created>1558971286416</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1558971286416</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150798000" />
+    <option name="totallyTimeSpent" value="151403000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
