@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e126c77c-0335-4432-af32-ab06055fa5a3" name="Default Changelist" comment="">
+    <list default="true" id="e126c77c-0335-4432-af32-ab06055fa5a3" name="Default Changelist" comment="Updated README with access infos pruned">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +21,8 @@
     <session id="1520475220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
@@ -33,7 +36,7 @@
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -50,10 +53,10 @@
           <entry key="JAVA" value="6" />
           <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Properties" value="5" />
+          <entry key="Properties" value="7" />
           <entry key="Scala" value="16" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -66,10 +69,10 @@
           <entry key="Enforced Plain Text" value="73" />
           <entry key="JAVA" value="428" />
           <entry key="Markdown" value="23" />
-          <entry key="PLAIN_TEXT" value="271" />
-          <entry key="Properties" value="77" />
+          <entry key="PLAIN_TEXT" value="337" />
+          <entry key="Properties" value="257" />
           <entry key="Scala" value="14" />
-          <entry key="XML" value="159" />
+          <entry key="XML" value="294" />
           <entry key="YAML" value="321" />
         </counts>
       </usages-collector>
@@ -77,32 +80,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="221">
-                <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/gatling.conf">
           <provider selected="true" editor-type-id="text-editor">
@@ -151,8 +128,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="51">
+              <caret line="3" column="11" selection-end-line="63" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -192,6 +196,8 @@
       <find>grad</find>
       <find>108</find>
       <find>52</find>
+      <find>server.p</find>
+      <find>docker.image.name</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\lfranchi\IdeaProjects\cicd</dir>
@@ -232,14 +238,14 @@
         <option value="$PROJECT_DIR$/appspec.yml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/cicd/CicdApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/codedeploy/ApplicationStop.sh" />
         <option value="$PROJECT_DIR$/codedeploy/ApplicationStart.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/gatling/BasicSimulation.scala" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -403,7 +409,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558628108800" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558969732360" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cicd-archetype" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -476,21 +482,8 @@
       <workItem from="1558084523351" duration="5440000" />
       <workItem from="1558095349566" duration="27000" />
       <workItem from="1558451203582" duration="11490000" />
-      <workItem from="1558682922732" duration="963000" />
-    </task>
-    <task id="LOCAL-00057" summary="Added CodeDeploy">
-      <created>1557401242814</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1557401242814</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Added CodeDeploy">
-      <created>1557402030225</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1557402030225</updated>
+      <workItem from="1558682922732" duration="4518000" />
+      <workItem from="1558963594898" duration="1968000" />
     </task>
     <task id="LOCAL-00059" summary="Added CodeDeploy">
       <created>1557402581688</created>
@@ -821,11 +814,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558683246644</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Updated README with access infos pruned">
+      <created>1558684257193</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1558684257193</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Updated README with access infos pruned">
+      <created>1558693804491</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1558693804491</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143727000" />
+    <option name="totallyTimeSpent" value="149250000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -837,10 +844,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.26308724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.24026845" />
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.24966443" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -861,7 +868,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5033557" side_tool="true" weight="0.29575402" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32796487" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.4966443" visible="true" weight="0.29575402" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.4966443" visible="true" weight="0.26793557" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -948,7 +955,8 @@
     <MESSAGE value="Added CodeDeploy" />
     <MESSAGE value="Added CodeDeploy to Kubernetes" />
     <MESSAGE value="Added Jenkinsfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Jenkinsfile" />
+    <MESSAGE value="Updated README with access infos pruned" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README with access infos pruned" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/classes/com/example/cicd/CicdApplication.class" />
@@ -1016,13 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/cicd/MyUnit.java" />
-    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codedeploy/BeforeInstall.sh" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/cicd/CicdApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1055,23 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1084,6 +1068,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="187">
+            <caret line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/gatling.conf">
       <provider selected="true" editor-type-id="text-editor">
@@ -1120,23 +1114,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="221">
-            <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
