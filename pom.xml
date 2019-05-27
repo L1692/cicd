@@ -8,16 +8,16 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>${project.groupId}</groupId>
-    <artifactId>${project.artifactId}</artifactId>
-    <version>${project.version}</version>
-    <name>${project.name}</name>
-    <description>${project.description}</description>
+    <groupId>com.example</groupId>
+    <artifactId>cicd</artifactId>
+    <version>0.1</version>
+    <name>cicd</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>
-        <docker.image.name>${docker.image.name}</docker.image.name>
-        <docker.image.tag>${docker.image.tag}</docker.image.tag>
+        <docker.image.name>cicdapp</docker.image.name>
+        <docker.image.tag>0.1</docker.image.tag>
         <dockerfile-maven-version>1.4.10</dockerfile-maven-version>
     </properties>
 
